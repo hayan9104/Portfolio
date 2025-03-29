@@ -1,0 +1,1118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hayan Patel | Creative Developer</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- AOS CSS for Animations -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body class="light-mode">
+    <!-- Theme Toggle Button -->
+    <div class="theme-toggle">
+        <button id="themeToggle" class="btn rounded-circle">
+            <i class="fas fa-moon"></i>
+        </button>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <span class="logo-text">Hayan</span><span class="logo-dot">.</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+   <!-- Hero Section -->
+<section id="home" class="hero-section">
+    <div class="particles-container" id="particles-js"></div>
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 hero-content-wrapper">
+                <div class="hero-content" data-aos="fade-right" data-aos-duration="1000">
+                    <div class="hero-tag">
+                        <span class="tag-line"></span>
+                        <span class="badge">BE Student & Developer</span>
+                    </div>
+                    <h1 class="hero-title">Crafting Digital <span class="accent-text">Experiences</span></h1>
+                    <h2 class="hero-subtitle">I'm <span class="highlight-text">Hayan Patel</span></h2>
+                    <div class="typewriter-container">
+                        <span class="typewriter-prefix">Specialized in </span>
+                        <span id="typewriter" class="typewriter-text"></span>
+                    </div>
+                    <p class="hero-description">Passionate developer turning complex problems into elegant solutions through innovative design and clean code.</p>
+                    
+                   
+                </div>
+            </div>
+            <div class="col-lg-6" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">
+                <div class="hero-visual">
+                    <div class="hero-image-wrapper">
+                        <div class="hero-image-overlay"></div>
+                        <img src="img1.jpg" alt="Hayan Patel" class="hero-image">
+                        <div class="hero-image-shape"></div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="hero-shape-bottom">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill-opacity="1" d="M0,192L48,202.7C96,213,192,235,288,229.3C384,224,480,192,576,165.3C672,139,768,117,864,122.7C960,128,1056,160,1152,181.3C1248,203,1344,213,1392,218.7L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+        </svg>
+    </div>
+    <div class="scroll-down">
+        <a href="#about" class="smooth-scroll">
+            <div class="scroll-circle">
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </a>
+    </div>
+</section>
+<section id="about" class="py-5">
+    <div class="container">
+        <div class="section-title text-center mb-5" data-aos="fade-up">
+            <span class="subtitle">About Me</span>
+            <h2>Who I Am</h2>
+            <div class="divider mx-auto"></div>
+        </div>
+        
+        <div class="row">
+            <!-- Left Column: About Me Content -->
+            <div class="col-lg-6" data-aos="fade-right" data-aos-duration="1000">
+                <div class="about-content p-4 h-100">
+                    <h3 class="mb-3">Web Developer & Digital Innovator </h3>
+                    <div class="role-tags mb-4">
+                        <span class="role-tag">Innovative Web Development Engineer | Technology Explorer</span>
+                    </div>
+                    
+                    <p class="about-bio">I'm a web developer specializing in crafting responsive, user-friendly digital solutions. My expertise spans full-stack web development, leveraging Python web technologies to transform complex challenges into elegant, efficient applications.
+                        My journey is rooted in creating robust web solutions that seamlessly integrate frontend technologies, backend systems, and innovative approaches to software design.</p>
+                    <div class="key-highlights mt-4">
+                        <div class="highlight-item">
+                            <div class="highlight-text">
+                                <h5>Technical Expertise</h5>
+                                <p>Versatile in full-stack web development with specialized skills in Python frameworks (Django, Flask), frontend technologies (HTML, CSS, JavaScript), RESTful API design, and emerging AI/ML technologies, delivering comprehensive web solutions that push technological boundaries.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="about-cta mt-4 text-center text-lg-start">
+                        <a href="https://drive.google.com/uc?export=download&id=137gXOpPsPH52qFRbaRdg8nLTLIzc0A0Q" 
+                           class="btn btn-primary btn-lg d-block d-lg-inline-block mx-auto mx-lg-0" 
+                           download="Resume.pdf">
+                            <i class="fas fa-download me-2"></i>Download CV
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Right Column: Academic Excellence -->
+            <div class="col-lg-6" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+                <div class="education-showcase p-4 h-100">
+                    <h4 class="education-title text-center mb-4">
+                        <span class="education-icon"><i class="fas fa-graduation-cap"></i></span> ACADEMIC EXCELLENCE
+                    </h4>
+                    <div class="education-timeline">
+                        <div class="timeline-item active">
+                            <div class="timeline-badge">
+                                <i class="fas fa-university"></i>
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h5>Bachelor of Engineering</h5>
+                                    <h6 class="institution">LDRP Institute of Technology and Research</h6>
+                                    <span class="location">Gandhinagar, Gujarat</span>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>Currently pursuing studies in Computer Engineering with focus on emerging technologies and software development methodologies.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-badge">
+                                <i class="fas fa-school"></i>
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h5>Higher Secondary Education (HSC)</h5>
+                                    <h6 class="institution">Sahjanand School of Achiever</h6>
+                                    <span class="location">Gandhinagar, Gujarat</span>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>Built a strong academic base in science, mathematics, and computer applications.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Skills Section -->
+<section id="skills" class="py-5">
+    <div class="container">
+        <div class="section-title text-center mb-5" data-aos="fade-up">
+            <span class="subtitle">My Skills</span>
+            <h2>Technical Toolbox</h2>
+            <div class="divider mx-auto"></div>
+        </div>
+        
+        <div class="row g-4">
+            <!-- Skills Overview -->
+            <div class="col-lg-4 mb-4" data-aos="fade-right" data-aos-duration="1000">
+                <div class="skills-overview p-4 rounded shadow-sm h-100">
+                    <h3 class="mb-4">My Expertise</h3>
+                    <p class="lead">I specialize in developing scalable and user-friendly web solutions by integrating frontend and backend technologies seamlessly.</p>
+                    <div class="skill-philosophy mt-4">
+                        <div class="skill-quote p-3 rounded">
+                            <i class="fas fa-quote-left quote-icon me-2"></i>
+                            <p class="mb-0">I believe in continuous learning and pushing the boundaries of what's possible with code.</p>
+                        </div>
+                        
+                        <div class="mt-4">
+                            <a href="#projects" class="btn btn-primary">See My Work</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Skills Categories -->
+            <div class="col-lg-8" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+                <div class="skills-tabs p-4 rounded shadow-sm">
+                    <!-- Tab navigation -->
+                    <ul class="nav nav-pills mb-4 justify-content-center" id="skillsTabs" role="tablist">
+                        <li class="nav-item mx-2" role="presentation">
+                            <button class="nav-link active px-4 py-2" id="programming-tab" data-bs-toggle="tab" data-bs-target="#programming" type="button" role="tab" aria-selected="true">
+                                <i class="fas fa-code me-2"></i> Programming
+                            </button>
+                        </li>
+                        <li class="nav-item mx-2" role="presentation">
+                            <button class="nav-link px-4 py-2" id="web-tab" data-bs-toggle="tab" data-bs-target="#web" type="button" role="tab" aria-selected="false">
+                                <i class="fas fa-laptop-code me-2"></i> Web Dev
+                            </button>
+                        </li>
+                        <li class="nav-item mx-2" role="presentation">
+                            <button class="nav-link px-4 py-2" id="emerging-tab" data-bs-toggle="tab" data-bs-target="#emerging" type="button" role="tab" aria-selected="false">
+                                <i class="fas fa-brain me-2"></i> Emerging Tech
+                            </button>
+                        </li>
+                    </ul>
+                    
+                    <!-- Tab content -->
+                    <div class="tab-content pt-3" id="skillsTabContent">
+                        <!-- Programming Languages -->
+                        <div class="tab-pane fade show active" id="programming" role="tabpanel" aria-labelledby="programming-tab">
+                            <div class="row g-3">
+                                <div class="col-md-6 col-lg-4">
+                                    <div class="skill-card p-3 rounded text-center h-100">
+                                        <div class="skill-icon mb-3">
+                                            <i class="fas fa-file-code fa-2x"></i>
+                                        </div>
+                                        <h5 class="mb-2">C</h5>
+                                        
+                                        <p class="mt-2 mb-0">Core programming fundamentals</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-md-6 col-lg-4">
+                                    <div class="skill-card p-3 rounded text-center h-100">
+                                        <div class="skill-icon mb-3">
+                                            <i class="fas fa-file-code fa-2x"></i>
+                                        </div>
+                                        <h5 class="mb-2">C++</h5>
+                                        
+                                        <p class="mt-2 mb-0">Object-oriented programming</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-md-6 col-lg-4">
+                                    <div class="skill-card p-3 rounded text-center h-100">
+                                        <div class="skill-icon mb-3">
+                                            <i class="fas fa-project-diagram fa-2x"></i>
+                                        </div>
+                                        <h5 class="mb-2">DSA</h5>
+                                        
+                                        <p class="mt-2 mb-0">Data structures & algorithms</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-md-6 col-lg-4">
+                                    <div class="skill-card p-3 rounded text-center h-100">
+                                        <div class="skill-icon mb-3">
+                                            <i class="fab fa-java fa-2x"></i>
+                                        </div>
+                                        <h5 class="mb-2">Java</h5>
+                                        
+                                        <p class="mt-2 mb-0">Fundamentals of Java programming</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-md-6 col-lg-4">
+                                    <div class="skill-card p-3 rounded text-center h-100">
+                                        <div class="skill-icon mb-3">
+                                            <i class="fab fa-python fa-2x"></i>
+                                        </div>
+                                        <h5 class="mb-2">Python</h5>
+                                       
+                                        <p class="mt-2 mb-0">Scripting and automation</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Web Development -->
+                        <div class="tab-pane fade" id="web" role="tabpanel" aria-labelledby="web-tab">
+                            <div class="row g-3">
+                                <div class="col-md-6 col-lg-4">
+                                    <div class="skill-card p-3 rounded text-center h-100">
+                                        <div class="skill-icon mb-3">
+                                            <i class="fab fa-html5 fa-2x"></i>
+                                        </div>
+                                        <h5 class="mb-2">HTML</h5>
+                                        
+                                        <p class="mt-2 mb-0">Semantic markup</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-md-6 col-lg-4">
+                                    <div class="skill-card p-3 rounded text-center h-100">
+                                        <div class="skill-icon mb-3">
+                                            <i class="fab fa-css3-alt fa-2x"></i>
+                                        </div>
+                                        <h5 class="mb-2">CSS</h5>
+                                        
+                                        <p class="mt-2 mb-0">Responsive design</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-md-6 col-lg-4">
+                                    <div class="skill-card p-3 rounded text-center h-100">
+                                        <div class="skill-icon mb-3">
+                                            <i class="fab fa-js fa-2x"></i>
+                                        </div>
+                                        <h5 class="mb-2">JavaScript</h5>
+                                       
+                                        <p class="mt-2 mb-0">Interactive web elements</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-md-6 col-lg-4">
+                                    <div class="skill-card p-3 rounded text-center h-100">
+                                        <div class="skill-icon mb-3">
+                                            <i class="fab fa-bootstrap fa-2x"></i>
+                                        </div>
+                                        <h5 class="mb-2">Bootstrap</h5>
+                                       
+                                        <p class="mt-2 mb-0">Responsive frameworks</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-md-6 col-lg-4">
+                                    <div class="skill-card p-3 rounded text-center h-100">
+                                        <div class="skill-icon mb-3">
+                                            <i class="fab fa-python fa-2x"></i>
+                                        </div>
+                                        <h5 class="mb-2">Django</h5>
+                                        
+                                        <p class="mt-2 mb-0">Full-stack web framework</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-md-6 col-lg-4">
+                                    <div class="skill-card p-3 rounded text-center h-100">
+                                        <div class="skill-icon mb-3">
+                                            <i class="fas fa-database fa-2x"></i>
+                                        </div>
+                                        <h5 class="mb-2">MySQL</h5>
+                                        
+                                        <p class="mt-2 mb-0">Database management</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Emerging Tech -->
+                        <div class="tab-pane fade" id="emerging" role="tabpanel" aria-labelledby="emerging-tab">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <div class="skill-card p-3 rounded text-center h-100">
+                                        <div class="skill-icon mb-3">
+                                            <i class="fas fa-robot fa-2x"></i>
+                                        </div>
+                                        <h5 class="mb-2">AI & Machine Learning</h5>
+                                       
+                                        <p class="mt-2 mb-0">Intelligent systems development</p>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- Projects Section -->
+    <section id="projects" class="py-5">
+        <div class="container">
+            <div class="section-title text-center mb-5" data-aos="fade-up">
+                <span class="subtitle">My Projects</span>
+                <h2>What I've Created</h2>
+                <div class="divider mx-auto"></div>
+                <p class="section-subtitle">Each project is a unique piece of development that showcases my skills and passion.</p>
+            </div>
+            <div class="project-filters text-center mb-4" data-aos="fade-up" data-aos-delay="100">
+                <button class="btn filter-btn active" data-filter="all">All Projects</button>
+                <button class="btn filter-btn" data-filter="web">Web Apps</button>
+                <button class="btn filter-btn" data-filter="frontend">Frontend</button>
+
+            </div>
+            <div class="row project-container">
+                <!-- Project 1 -->
+                <div class="col-md-6 col-lg-4 mb-4 project-item" data-category="web" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://plus.unsplash.com/premium_photo-1718349374495-b1d09644f973?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDd8fHxlbnwwfHx8fHw%3D" class="img-fluid" alt="Portfolio Template">
+                            <div class="project-overlay">
+                                <div class="project-overlay-content">
+                                    <div class="project-links">
+                                        <a href="https://github.com/hayan9104/Heart-Diseases-Prediction-System" class="project-github" target="_blank"><i class="fab fa-github"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h5>Heart Diseases Prediction System</h5>
+                            <p>A heart disease prediction system built with Django, a Machine Learning model, and a responsive frontend.</p>
+                            <div class="technologies">
+                                <span class="tech-badge">HTML</span>
+                                <span class="tech-badge">CSS</span>
+                                <span class="tech-badge">JavaScript</span>
+                                <span class="tech-badge">ML Model</span>
+                                <span class="tech-badge">Django</span>
+                                <span class="tech-badge">MySQL</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="col-md-6 col-lg-4 mb-4 project-item" data-category="web" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://pharmaceutical-journal.com/wp-content/uploads/2021/01/It-s-not-just-medicines-that-improve-health.jpg" class="img-fluid" alt="E-commerce Platform">
+                            <div class="project-overlay">
+                                <div class="project-overlay-content">
+                                    <div class="project-links">
+                                        <a href="https://github.com/hayan9104/Pharmacy-Project" class="project-github" target="_blank"><i class="fab fa-github"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h5>Pharmacy-Site</h5>
+                            <p>A full-stack Pharmacy-Site with Django backend and responsive frontend.</p>
+                            <div class="technologies">
+                                <span class="tech-badge">HTML</span>
+                                <span class="tech-badge">CSS</span>
+                                <span class="tech-badge">JavaScript</span>
+                                <span class="tech-badge">Django</span>
+                                <span class="tech-badge">MySQL</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                <!-- Project 3 -->
+                <div class="col-md-6 col-lg-4 mb-4 project-item" data-category="frontend" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://img.freepik.com/free-vector/virtual-fitness-concept-illustration_114360-16739.jpg" class="img-fluid" alt="Task Management API">
+                            <div class="project-overlay">
+                                <div class="project-overlay-content">
+                                    <div class="project-links">
+                                        <a href="https://github.com/hayan9104/Fitness-Tracker" class="project-github" target="_blank"><i class="fab fa-github"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h5>Fitness Tracker</h5>
+                            <p>A fitness tracker website with a responsive and user-friendly frontend design.</p>
+                            <div class="technologies">
+                                <span class="tech-badge">HTML</span>
+                                <span class="tech-badge">CSS</span>
+                                <span class="tech-badge">Java Script</span>
+                                <span class="tech-badge">Bootstrap</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 4 -->
+                <div class="col-md-6 col-lg-4 mb-4 project-item" data-category="web" data-aos="fade-up" data-aos-delay="400">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://bizom.com/wp-content/uploads/2023/04/Unlocking-the-Benefits-of-Inventory-Management-Software-blog-banner-image.jpg" class="img-fluid" alt="Educational Platform">
+                            <div class="project-overlay">
+                                <div class="project-overlay-content">
+                                    <div class="project-links">
+                                        <a href="https://github.com/hayan9104/SSIP-Inventory-management-system" class="project-github" target="_blank"><i class="fab fa-github"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h5>Inventory Management System</h5>
+                            <p>An Inventory Management System built with Flask and a Machine Learning model for efficient stock management and predictive analytics.</p>
+                            <div class="technologies">
+                                <span class="tech-badge">HTML</span>
+                                <span class="tech-badge">CSS</span>
+                                <span class="tech-badge">JavaScript</span>
+                                <span class="tech-badge">ML Model</span>
+                                <span class="tech-badge">Flask</span>
+                                <span class="tech-badge">MySQL</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    
+   <!-- Contact Section -->
+<section id="contact" class="py-5">
+    <div class="container">
+        <div class="section-title text-center mb-5" data-aos="fade-up">
+            <span class="subtitle">Contact Me</span>
+            <h2>Let's Work Together</h2>
+            <div class="divider mx-auto"></div>
+            <p class="section-subtitle">I'm always open to discussing new projects, creative ideas or opportunities to be part of your vision.</p>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-10" data-aos="fade-up" data-aos-duration="1000">
+                <div class="contact-wrapper">
+                    <div class="contact-info-card">
+                        <div class="contact-header text-center mb-5">
+                            <div class="contact-avatar">
+                                <i class="fas fa-user-circle"></i>
+                            </div>
+                            <h3>Get In Touch</h3>
+                           
+                        </div>
+                        
+                        <div class="contact-details">
+                            <div class="row g-4">
+                                <div class="col-md-4">
+                                    <div class="contact-item">
+                                        <div class="contact-icon">
+                                            <i class="fas fa-map-marker-alt"></i>
+                                        </div>
+                                        <div class="contact-content">
+                                            <h5>Location</h5>
+                                            <p>Gandhinagar, Gujarat, India</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-md-4">
+                                    <div class="contact-item">
+                                        <div class="contact-icon">
+                                            <i class="fas fa-envelope"></i>
+                                        </div>
+                                        <div class="contact-content">
+                                            <h5>Email</h5>
+                                            <p>hayanpatel9104@gmail.com</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-md-4">
+                                    <div class="contact-item">
+                                        <div class="contact-icon">
+                                            <i class="fas fa-phone"></i>
+                                        </div>
+                                        <div class="contact-content">
+                                            <h5>Call</h5>
+                                            <p>+91 97731 42051</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-social">
+                            <h5 class="text-center mb-4">Connect With Me</h5>
+                            <div class="social-links">
+                                <a href="https://www.linkedin.com/in/hayan9104/" class="social-link" target="_blank">
+                                    <i class="fab fa-linkedin-in"></i>
+                                    <span>LinkedIn</span>
+                                </a>
+                                <a href="https://github.com/hayan9104" class="social-link" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                    <span>GitHub</span>
+                                </a>
+                                <a href="https://www.instagram.com/hayan_9104?igsh=MTRtbmNtYm16MHJnMw==" class="social-link" target="_blank">
+                                    <i class="fab fa-instagram"></i>
+                                    <span>Instagram</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer py-4">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6 mb-3 mb-md-0">
+                <div class="copyright">
+                    <p>&copy; 2025 Hayan Patel. All Rights Reserved.</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="footer-links text-md-end">
+                    <a href="#home" class="footer-link">Home</a>
+                    <a href="#about" class="footer-link">About</a>
+                    <a href="#about" class="footer-link">Skills</a>
+                    <a href="#projects" class="footer-link">Projects</a>
+                    <a href="#contact" class="footer-link">Contact</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Back to Top Button -->
+<a href="#" class="back-to-top"><i class="fas fa-arrow-up"></i></a>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- AOS JS for Animations -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script>
+        // Add this new function at the beginning of your script
+        function scrollToSection(sectionId) {
+            const section = document.getElementById(sectionId);
+            if (section) {
+                const navbarHeight = document.querySelector('.navbar').offsetHeight;
+                const sectionPosition = section.getBoundingClientRect().top + window.pageYOffset;
+                const offsetPosition = sectionPosition - navbarHeight;
+
+                window.scrollTo({
+                    top: offsetPosition,
+                    behavior: 'smooth'
+                });
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', function() {
+            // Initialize AOS (Animate On Scroll)
+            AOS.init({
+                duration: 100,
+                once: true,
+                offset: 100
+            });
+        
+            // Typewriter effect
+            const typewriterElement = document.getElementById('typewriter');
+            if (typewriterElement) {
+                const words = ['Web Development.', 'Full-Stack Solution.', 'Python Web Technologies.', 'Responsive Design.'];
+                let wordIndex = 0;
+                let charIndex = 0;
+                let isDeleting = false;
+                let typeSpeed = 100;
+        
+                function typeEffect() {
+                    const currentWord = words[wordIndex];
+                    
+                    if (isDeleting) {
+                        typewriterElement.textContent = currentWord.substring(0, charIndex - 1);
+                        charIndex--;
+                        typeSpeed = 50;
+                    } else {
+                        typewriterElement.textContent = currentWord.substring(0, charIndex + 1);
+                        charIndex++;
+                        typeSpeed = 100;
+                    }
+        
+                    if (!isDeleting && charIndex === currentWord.length) {
+                        isDeleting = true;
+                        typeSpeed = 1000; // Pause at end
+                    } else if (isDeleting && charIndex === 0) {
+                        isDeleting = false;
+                        wordIndex = (wordIndex + 1) % words.length;
+                        typeSpeed = 500; // Pause before typing next word
+                    }
+        
+                    setTimeout(typeEffect, typeSpeed);
+                }
+        
+                // Start the typewriter effect
+                typeEffect();
+            }
+        
+            // Theme toggle functionality
+            const themeToggle = document.getElementById('themeToggle');
+            const body = document.body;
+            const icon = themeToggle.querySelector('i');
+        
+            // Check for saved theme preference or use default
+            const savedTheme = localStorage.getItem('theme') || 'light-mode';
+            body.className = savedTheme;
+        
+            // Update icon based on current theme
+            if (savedTheme === 'dark-mode') {
+                icon.classList.remove('fa-moon');
+                icon.classList.add('fa-sun');
+                
+                // Update particles for dark mode
+                if (window.pJSDom && window.pJSDom.length > 0) {
+                    window.pJSDom[0].pJS.particles.color.value = "#555555";
+                    window.pJSDom[0].pJS.particles.line_linked.color = "#555555";
+                    window.pJSDom[0].pJS.fn.particlesRefresh();
+                }
+            }
+        
+            themeToggle.addEventListener('click', function() {
+                if (body.classList.contains('light-mode')) {
+                    body.classList.remove('light-mode');
+                    body.classList.add('dark-mode');
+                    icon.classList.remove('fa-moon');
+                    icon.classList.add('fa-sun');
+                    localStorage.setItem('theme', 'dark-mode');
+                    
+                    // Update particles for dark mode
+                    if (window.pJSDom && window.pJSDom.length > 0) {
+                        window.pJSDom[0].pJS.particles.color.value = "#555555";
+                        window.pJSDom[0].pJS.particles.line_linked.color = "#555555";
+                        window.pJSDom[0].pJS.fn.particlesRefresh();
+                    }
+                } else {
+                    body.classList.remove('dark-mode');
+                    body.classList.add('light-mode');
+                    icon.classList.remove('fa-sun');
+                    icon.classList.add('fa-moon');
+                    localStorage.setItem('theme', 'light-mode');
+                    
+                    // Update particles for light mode
+                    if (window.pJSDom && window.pJSDom.length > 0) {
+                        window.pJSDom[0].pJS.particles.color.value = "#ffffff";
+                        window.pJSDom[0].pJS.particles.line_linked.color = "#ffffff";
+                        window.pJSDom[0].pJS.fn.particlesRefresh();
+                    }
+                }
+            });
+        
+            // Navbar active link highlighting
+            const sections = document.querySelectorAll('section[id]');
+            const navItems = document.querySelectorAll('.navbar-nav .nav-link');
+            
+            function highlightNavItem() {
+                const scrollPosition = window.scrollY + 100;
+                
+                sections.forEach(section => {
+                    const sectionTop = section.offsetTop;
+                    const sectionHeight = section.offsetHeight;
+                    const sectionId = section.getAttribute('id');
+                    
+                    if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
+                        navItems.forEach(item => {
+                            item.classList.remove('active');
+                            if (item.getAttribute('href') === '#' + sectionId) {
+                                item.classList.add('active');
+                            }
+                        });
+                    }
+                });
+            }
+            
+            window.addEventListener('scroll', highlightNavItem);
+        
+            // Project filtering functionality
+            const filterBtns = document.querySelectorAll('.filter-btn');
+            const projectItems = document.querySelectorAll('.project-item');
+            
+            filterBtns.forEach(btn => {
+                btn.addEventListener('click', function() {
+                    // Remove active class from all buttons
+                    filterBtns.forEach(btn => btn.classList.remove('active'));
+                    
+                    // Add active class to clicked button
+                    this.classList.add('active');
+                    
+                    const filterValue = this.getAttribute('data-filter');
+                    
+                    projectItems.forEach(item => {
+                        if (filterValue === 'all' || item.getAttribute('data-category') === filterValue) {
+                            item.style.display = 'block';
+                            
+                            // Refresh AOS animations on filtered items
+                            setTimeout(() => {
+                                AOS.refresh();
+                            }, 100);
+                        } else {
+                            item.style.display = 'none';
+                        }
+                    });
+                });
+            });
+        
+            // Smooth scrolling functionality
+            function smoothScroll(target, duration = 100) {
+                const targetElement = document.querySelector(target);
+                if (!targetElement) return;
+
+                const targetPosition = targetElement.getBoundingClientRect().top + window.pageYOffset;
+                const startPosition = window.pageYOffset;
+                const distance = targetPosition - startPosition - 80; // 80px offset for fixed navbar
+                let startTime = null;
+
+                function animation(currentTime) {
+                    if (startTime === null) startTime = currentTime;
+                    const timeElapsed = currentTime - startTime;
+                    const run = ease(timeElapsed, startPosition, distance, duration);
+                    window.scrollTo(0, run);
+                    if (timeElapsed < duration) requestAnimationFrame(animation);
+                }
+
+                function ease(t, b, c, d) {
+                    t /= d / 2;
+                    if (t < 1) return c / 2 * t * t + b;
+                    t--;
+                    return -c / 2 * (t * (t - 2) - 1) + b;
+                }
+
+                requestAnimationFrame(animation);
+            }
+
+            // Add click event listeners to all anchor links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const target = this.getAttribute('href');
+                    if (target === '#') return;
+                    
+                    smoothScroll(target);
+                    
+                    // Close mobile menu if open
+                    const navbarCollapse = document.querySelector('.navbar-collapse');
+                    if (navbarCollapse.classList.contains('show')) {
+                        navbarCollapse.classList.remove('show');
+                    }
+                });
+            });
+        
+            // Add specific event listeners for hero buttons
+            const heroButtons = document.querySelectorAll('.hero-buttons button');
+            heroButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    const target = this.getAttribute('onclick').match(/'([^']+)'/)[1];
+                    smoothScroll('#' + target);
+                });
+            });
+        
+            // Back to top button functionality
+            const backToTopButton = document.querySelector('.back-to-top');
+            
+            window.addEventListener('scroll', function() {
+                if (window.pageYOffset > 300) {
+                    backToTopButton.style.display = 'block';
+                } else {
+                    backToTopButton.style.display = 'none';
+                }
+            });
+            
+            backToTopButton.addEventListener('click', function(e) {
+                e.preventDefault();
+                smoothScroll('#home');
+            });
+        
+            // Notification function
+            function showNotification(message, type) {
+                const notification = document.createElement('div');
+                notification.className = `notification ${type}`;
+                notification.innerHTML = `
+                    <div class="notification-content">
+                        <i class="fas ${type === 'success' ? 'fa-check-circle' : 'fa-exclamation-circle'}"></i>
+                        <span>${message}</span>
+                    </div>
+                    <button class="notification-close">
+                        <i class="fas fa-times"></i>
+                    </button>
+                `;
+
+                document.body.appendChild(notification);
+
+                // Add show class after a small delay
+                setTimeout(() => {
+                    notification.classList.add('show');
+                }, 100);
+
+                // Remove notification after 5 seconds
+                setTimeout(() => {
+                    notification.classList.remove('show');
+                    setTimeout(() => {
+                        notification.remove();
+                    }, 300);
+                }, 5000);
+
+                // Close button functionality
+                notification.querySelector('.notification-close').addEventListener('click', () => {
+                    notification.classList.remove('show');
+                    setTimeout(() => {
+                        notification.remove();
+                    }, 300);
+                });
+            }
+        
+            // Handle navbar background change on scroll
+            const navbar = document.querySelector('.navbar');
+            
+            window.addEventListener('scroll', function() {
+                if (window.scrollY > 50) {
+                    navbar.classList.add('navbar-scrolled');
+                } else {
+                    navbar.classList.remove('navbar-scrolled');
+                }
+            });
+        
+            // Run once on load to set initial states
+            highlightNavItem();
+            if (window.scrollY > 50) {
+                navbar.classList.add('navbar-scrolled');
+            }
+            if (window.pageYOffset > 300) {
+                backToTopButton.style.display = 'block';
+            } else {
+                backToTopButton.style.display = 'none';
+            }
+        });
+    </script>
+    <!-- Particles.js Library -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script>
+        // Initialize particles.js
+        if (document.getElementById('particles-js')) {
+            particlesJS('particles-js', {
+                "particles": {
+                    "number": {
+                        "value": 80,
+                        "density": {
+                            "enable": true,
+                            "value_area": 800
+                        }
+                    },
+                    "color": {
+                        "value": "#ffffff"
+                    },
+                    "shape": {
+                        "type": "circle",
+                        "stroke": {
+                            "width": 0,
+                            "color": "#000000"
+                        },
+                        "polygon": {
+                            "nb_sides": 5
+                        }
+                    },
+                    "opacity": {
+                        "value": 0.5,
+                        "random": false,
+                        "anim": {
+                            "enable": false,
+                            "speed": 1,
+                            "opacity_min": 0.1,
+                            "sync": false
+                        }
+                    },
+                    "size": {
+                        "value": 3,
+                        "random": true,
+                        "anim": {
+                            "enable": false,
+                            "speed": 40,
+                            "size_min": 0.1,
+                            "sync": false
+                        }
+                    },
+                    "line_linked": {
+                        "enable": true,
+                        "distance": 150,
+                        "color": "#ffffff",
+                        "opacity": 0.4,
+                        "width": 1
+                    },
+                    "move": {
+                        "enable": true,
+                        "speed": 2,
+                        "direction": "none",
+                        "random": false,
+                        "straight": false,
+                        "out_mode": "out",
+                        "bounce": false,
+                        "attract": {
+                            "enable": false,
+                            "rotateX": 600,
+                            "rotateY": 1200
+                        }
+                    }
+                },
+                "interactivity": {
+                    "detect_on": "canvas",
+                    "events": {
+                        "onhover": {
+                            "enable": true,
+                            "mode": "grab"
+                        },
+                        "onclick": {
+                            "enable": true,
+                            "mode": "push"
+                        },
+                        "resize": true
+                    },
+                    "modes": {
+                        "grab": {
+                            "distance": 140,
+                            "line_linked": {
+                                "opacity": 1
+                            }
+                        },
+                        "bubble": {
+                            "distance": 400,
+                            "size": 40,
+                            "duration": 2,
+                            "opacity": 8,
+                            "speed": 3
+                        },
+                        "repulse": {
+                            "distance": 200,
+                            "duration": 0.4
+                        },
+                        "push": {
+                            "particles_nb": 4
+                        },
+                        "remove": {
+                            "particles_nb": 2
+                        }
+                    }
+                },
+                "retina_detect": true
+            });
+        }
+    </script>
+    <script>
+        // Skills Section Animation
+        document.addEventListener('DOMContentLoaded', function() {
+            // Initialize skill progress bars when they come into view
+            const skillBars = document.querySelectorAll('.skill-level .progress-bar');
+            
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const progressBar = entry.target;
+                        const value = progressBar.getAttribute('aria-valuenow');
+                        progressBar.style.width = '0%';
+                        
+                        setTimeout(() => {
+                            progressBar.style.width = value + '%';
+                        }, 100);
+                        
+                        // Unobserve after animation
+                        observer.unobserve(progressBar);
+                    }
+                });
+            }, { threshold: 0.2 });
+            
+            skillBars.forEach(bar => {
+                observer.observe(bar);
+            });
+            
+            // Handle tab switching and ensure proper AOS refresh
+            const tabButtons = document.querySelectorAll('#skillsTabs .nav-link');
+            tabButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    // Wait for tab content to become visible
+                    setTimeout(() => {
+                        // Refresh AOS animations
+                        AOS.refresh();
+                        
+                        // Reinitialize skill progress bars in the newly active tab
+                        const activeTab = document.querySelector(this.getAttribute('data-bs-target'));
+                        const visibleBars = activeTab.querySelectorAll('.skill-level .progress-bar');
+                        
+                        visibleBars.forEach(bar => {
+                            const value = bar.getAttribute('aria-valuenow');
+                            bar.style.width = '0%';
+                            
+                            setTimeout(() => {
+                                bar.style.width = value + '%';
+                            }, 100);
+                        });
+                    }, 300);
+                });
+            });
+            
+            // Update skill section appearance based on theme
+            const themeToggle = document.getElementById('themeToggle');
+            if (themeToggle) {
+                themeToggle.addEventListener('click', function() {
+                    // Allow transition to complete before refreshing AOS
+                    setTimeout(() => {
+                        AOS.refresh();
+                    }, 500);
+                });
+            }
+        });
+    </script>
+</body>
+</html>
